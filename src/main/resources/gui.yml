@@ -1,0 +1,319 @@
+GUIs:
+  skyblock_menu:
+    name: "Skyblock Menu"
+    items:
+      placeholder:
+        material: BLACK_STAINED_GLASS_PANE
+        name: ''
+        lore: ''
+      heart_of_the_mountain:
+        slot: 10
+        material: PLAYER_HEAD
+        name: '&5Heart of the Mountain'
+        lore:
+          - "&7Your &5Heart of the Mountain"
+          - "&7contains your progression for"
+          - "&7the deeper layers of the &bDeep"
+          - "&bCaverns&7!"
+          - ""
+          - "&7Unlock Tiers by completing"
+          - "&aCommissions &7 and upgrade"
+          - "&7perks using &2Powder&7."
+          - ""
+          - "&7Mithril Powder: &2%mithril_powder%"
+          - "&7Gemstone Powder: &d%gemstone_powder%"
+          - ""
+          - "&eClick to view!"
+      profile:
+        slot: 13
+        material: PLAYER_HEAD
+        name: '&aYour SkyBlock Profile'
+        lore:
+          - "&7View your equipment, stats,"
+          - "&7and more!"
+          - "&c❤ Health &f%health%"
+          - "&a❈ Defense &f%defense%"
+          - "&c❁ Strength &f%strength%"
+          - "&f ✦ Speed &f%speed%"
+          - "&9☣ Crit Chance &f%crit_chance%%"
+          - "&9☠ Crit Damage &f%crit_damage%%"
+          - "&b✎ Intelligence &f%intelligence%"
+          - "&6⸕ Mining Speed &f%mining_speed%"
+          - "&e⚔ Bonus Attack Speed &%bonus_attack_speed%%"
+          - "&3α Sea Creature Chance &f%sea_creature_chance%%"
+          - "&b✯ Magic Find &f%magic_find%"
+          - "&d♣ Pet Luck &f%pet_luck%"
+          - "&f❂ True Defense %true_defense%"
+          - "&c⫽ Ferocity &f%ferocity%"
+          - "&c๑ Ability Damage &f%ability_damage%%"
+          - "&6☘ Mining Fortune &f%mining_fortune%"
+          - "&6☘ Farming Fortune &f%farming_fortune%"
+          - "&6☘ Foraging Fortune &f%foraging_fortune%"
+          - "&5✧ Pristine &f%pristine%"
+          - ""
+          - "&eClick to view your profile!"
+      skills:
+        slot: 19
+        material: DIAMOND_SWORD
+        name: '&5Your Skills'
+        lore:
+          - "&7View your Skill progression and"
+          - "&7rewards."
+          - ""
+          - "&eClick to view!"
+          -
+      collection:
+        slot: 20
+        material: PAINTING
+        name: '&aCollection'
+        lore:
+          - "&7View all of the items available"
+          - "&7in SkyBlock. Collect more of an item"
+          - "&7to unlock rewards on your"
+          - "&7way to becoming the master of"
+          - "&7SkyBlock!"
+          - ""
+          - "&7Collection Maxed Out: &a%unlocked_collections_percentage%&6%"
+          - "&2%collection_progress_bar_20% &e%unlocked_collections%&6\/&e%all_collections%"
+          - ""
+          - "&eClick to view!"
+      recipe-book:
+        slot: 21
+        material: BOOK
+        name: '&aRecipe Book'
+        lore:
+          - "&7Through your adventure, you will"
+          - "&7unlock recipes for all kinds of"
+          - "&7special items! You can view how"
+          - "&7to craft these items here."
+          - ""
+          - "&7Recipe Book Unlocked: &a%unlocked_recipes_percentage%&6%"
+          - "&2%recipes_progress_bar_20% &e%unlocked_recipes%&6\/&e%all_recipes%"
+          - ""
+          - "&eClick to view!"
+      trades:
+        slot: 22
+        material: EMERALD
+        name: '&aTrades'
+        lore:
+          - "&7View your available trades."
+          - "&7These trades are always"
+          - "&7available and accessible through"
+          - "&7the SkyBlock Menu."
+          - ""
+          - "&7Trades Unlocked: &a%unlocked_trades_percentage%&6%"
+          - "&2%trades_progress_bar_20% &e%unlocked_trades%&6\/&e%all_trades%"
+          - ""
+          - "&eClick to view!"
+      quests:
+        slot: 23
+        material: BOOK_AND_QUILL
+        name: '&aQuest Log'
+        lore:
+          - "&7View your active quests,"
+          - "&7progress, and rewards."
+          - ""
+          - "&eClick to view!"
+      calendar:
+        slot: 24
+        material: CLOCK
+        name: '&aCalendar and Events'
+        lore:
+          - "&7View the SkyBlock Calendar,"
+          - "&7upcoming events, and event"
+          - "&7rewards!"
+          - ""
+          - "&7Active Event: &b%current_event%"
+          - "&7Ends in: &e%event_end_time%"
+          - ""
+          - "&7Next Event: &b%next_event%"
+          - "&7Starting in: &e%event_start_time%"
+          - ""
+          - "&eClick to view!"
+      storage:
+        slot: 25
+        material: CHEST
+        name: '&aStorage'
+        lore:
+          - "&7Store global items that you"
+          - "&7want to access at any time"
+          - "&7from anywhere here."
+          - ""
+          - "&eClick to view!"
+      active_effects:
+        slot: 29
+        material: WATER_BOTTLE
+        name: '&aActive Effects'
+        lore:
+          - "&7View and manage all your"
+          - "&7active potion effects."
+          - ""
+          - "&7Drink Potions or splash them"
+          - "&7on the ground to buff yourself!"
+          - ""
+          - "&7Currently Active: &e%active_effects%"
+          - "&eClick to view!"
+      pets:
+        slot: 30
+        material: BONE
+        name: '&aPets'
+        lore:
+          - "&7View and manage all your"
+          - "&7Pets."
+          - ""
+          - "&7Level up your pets faster by"
+          - "&7gaining xp in their favorite"
+          - "&7Skill!"
+          - ""
+          - "&7Selected Pet: &c%current_pet%"
+          - ""
+          - "&eClick to view!"
+      crafting_table:
+        slot: 31
+        material: CRAFTING_TABLE
+        name: '&aCrafting Table'
+        lore:
+          - "&7Opens the crafting grid."
+          - ""
+          - "&eClick to open!"
+      wardrobe:
+        slot: 32
+        material: LEATHER_CHESTPLATE
+        name: '&aWardrobe'
+        lore:
+          - "&7Store armor sets and quickly"
+          - "&7swap between them!"
+          - ""
+          - "&eClick to view!"
+      personal_bank:
+        slot: 33
+        material: PLAYER_HEAD
+        name: '&aPersonal Bank'
+        lore:
+          - "&7Contact your Banker from"
+          - "&7anywhere."
+          - "&7Cooldown: &e%cooldown%"
+          - ""
+          - "&7Banker Status:"
+          - "&a%banker_status%"
+          - ""
+          - "&eClick to open!"
+      jerry_island:
+        slot: 38
+        material: PLAYER_HEAD
+        name: "&bWarp to: &cJerry's Workshop"
+        lore:
+          - "&7Teleports you to &cJerry's"
+          - "&cWorkshop&7. Available for a"
+          - "&7limited time!"
+          - ""
+          - "&eClick to warp!"
+      fishing_bag:
+        slot: 43
+        material: PLAYER_HEAD
+        name: '&aFishing Bag'
+        lore:
+          - "&7A useful bag which can hold all"
+          - "&7types of fish, baits, and fishing"
+          - "&7loot!"
+          - ""
+          - "&eClick to open!"
+      quiver:
+        slot: 44
+        material: PLAYER_HEAD
+        name: '&aQuiver'
+        lore:
+          - "&7A masterfully crafted Quiver"
+          - "&7which holds any kind of"
+          - "&7projectile you can think of!"
+          - ""
+          - "&eClick to open!"
+      guests:
+        slot: 46
+        material: LONG_GRASS
+        name: '&aGuest Management'
+        lore:
+          - "&7Manage players guesting on"
+          - "&7your island."
+          - ""
+          - "&a✌&7Guests: &a%guests%&7\/%max_guests%"
+          - "&eClick to manage!"
+      fast_travel:
+        slot: 47
+        material: PLAYER_HEAD
+        name: '&bFast Travel'
+        lore:
+          - "&7Teleport to islands you've"
+          - "&7already visited."
+          - ""
+          - "&bRight-click for hub warp!"
+          - "&eClick to pick location!"
+      profile_management:
+        slot: 48
+        material: NAME_TAG
+        name: '&aProfile Management'
+        lore:
+          - "&7You can have multiple"
+          - "&7Skyblock Profiles at the"
+          - "&7same time."
+          - ""
+          - "&7Each profile has its own"
+          - "&7island, inventory, quest"
+          - "&7log..."
+          - ""
+          - "&7Profiles: &e%profiles%&6\/&e%max_profiles%"
+          - ""
+          - "&bPlay with friends using \/coop!"
+          - ""
+          - "&eClick to manage!"
+      booster_cookie:
+        slot: 49
+        material: COOKIE
+        name: '&6Booster Cookie'
+        lore:
+          - "&7Obtain the &dCookie Buff"
+          - "&7from Booster Cookies in the"
+          - "&7hub's community shop."
+          - ""
+          - "&7Duration: &a%cookie_duration%"
+          - "&7Bits Available: &b%bits_available%"
+          - ""
+          - "&eClick to get all the info!"
+      settings:
+        slot: 50
+        material: REDSTONE_TORCH
+        name: '&aSettings'
+        lore:
+          - "&7View and edit your SkyBlock"
+          - "&7settings."
+          - ""
+          - "&eClick to view!"
+      sack_of_sacks:
+        slot: 51
+        material: PLAYER_HEAD
+        name: '&aSack of Sacks'
+        lore:
+          - "&7A sack which contains other"
+          - "&7sacks. Sackception!"
+          - ""
+          - "&eClick to open!"
+      potion_bag:
+        slot: 52
+        material: PLAYER_HEAD
+        name: '&aPotion Bag'
+        lore:
+          - "&7A handy bag for holding your"
+          - "&7Potions in."
+          - ""
+          - "&eClick to open!"
+      accessory_bag:
+        slot: 53
+        material: PLAYER_HEAD
+        name: '&aAccessory Bag'
+        lore:
+          - "&7A special bag which can hold"
+          - "&7Talismans, Rings, Artifacts, Relics, and"
+          - "&7Orbs within it. All will still work"
+          - "&7while in this bag!"
+          - ""
+          - "&eClick to open!"

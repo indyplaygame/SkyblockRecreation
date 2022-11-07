@@ -1,0 +1,5 @@
+name: SkyblockRecreation
+version: '${project.version}'
+main: indy.skyblock.main.Main
+api-version: 1.18
+authors: [ indyPlayGames, 064ms ]
